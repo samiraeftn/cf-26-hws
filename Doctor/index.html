@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Rostami!</title>
+</head>
+<body class="bg-gray-900">
+    <div class="shadow-md rounded-lg mx-8 my-4 overflow-x-hidden">
+        <table class="w-full text-left text-gray-400">
+            <thead class="w-full text-xs text-left text-gray-400">
+                <tr>
+                    <th class="px-6 py-3">#</th>
+                    <th class="px-6 py-3">first name</th>
+                    <th  class="px-6 py-3">last name</th>
+                    <th  class="px-6 py-3">date</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th class="px-6 py-4"></th>
+                    <th class="px-6 py-4"><input id="user-firstname" class="text-lg text-black p-1" type="text"></th>
+                    <th class="px-6 py-4"><input id="user-lastname" class="text-lg text-black p-1" type="text"></th>
+                    <th class="px-6 py-4"><input id="user-date" class="text-lg text-black p-1" type="text"></th>
+                    <th><button id="submit-btn" class="bg-green-700 text-white font-medium text-base px-5 py-2.5">submit</button></th>
+                </tr>
+            </thead>
+            <tbody id="users">
+                <tr class="border-b border-gray-600 odd:bg-gray-800 even:bg-gray-700">
+                    <td class="px-6 py-4 font-medium text-white" >1</td>
+                    <td class="px-6 py-4">ali</td>
+                    <td class="px-6 py-4">nili</td>
+                    <td class="px-6 py-4">2024-01-01</td>
+                    <td></td>
+                </tr>
+                <tr class="border-b border-gray-600 odd:bg-gray-800 even:bg-gray-700">
+                </tr>
+                <tr class="border-b border-gray-600 odd:bg-gray-800 even:bg-gray-700">
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+
+    
+</body>
+</html>
